@@ -1,0 +1,44 @@
+.img{
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 5px;
+}
+body{
+    position: grid;
+    height: 100%;
+
+}
+.text-one{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:  Lobster;
+    font-size: 20px;
+}
+.text-two{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.or{
+    text-align: center;
+}
+.hinh{
+    width: 10px;
+    height: 10px;
+}
+.create{
+    text-align: center;
+}
